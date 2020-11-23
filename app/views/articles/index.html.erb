@@ -1,0 +1,11 @@
+<h1>articles_controller >> index.html.erb</h1>
+
+<% @articles.each do |registro| %>
+<p>
+  <%= registro.id %>
+  <%= registro.title %>
+  <%= registro.status %>
+
+</p>
+
+<% end %>
